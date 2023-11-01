@@ -205,7 +205,7 @@ We can then `import` and use them in another file:
 // src/ColoradoStateParks.js
 import { trees, wildlife } from "./parks/RockyMountain";
 
-console.log(trees);
+  console.log(trees);
 // => "Aspen and Pine"
 
 wildlife();
@@ -243,7 +243,7 @@ from a given module. This syntax looks like:
 
 ```js
 // src/ColoradoStateParks.js
-import * as RMFunctions from "./parks/RockyMountain";
+  import * as RMFunctions from "./parks/RockyMountain";
 
 console.log(RMFunctions.trees);
 // => "Aspen and Pine"
